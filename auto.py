@@ -27,6 +27,7 @@ class DaKa:
         self.info = None
         self.sess = requests.Session()
 
+        print(self.username, self.password)
     def login(self):
         def __login_passwd_aes(mode=AES.MODE_CBC):
             def __random_str(num):
@@ -183,5 +184,5 @@ if __name__ == "__main__":
     parser.add_argument('--username', type=str, default=None)
     parser.add_argument('--password', type=str, default=None)
     args = parser.parse_args()
-    print(args.username, args.password)
+
     main(args.username, args.password)
