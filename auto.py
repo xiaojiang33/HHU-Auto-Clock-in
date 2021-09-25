@@ -55,7 +55,7 @@ class DaKa:
             }
             self.sess.post(self.login_url, data=login_data)  # session中cookies单点登录相关的key改变
         except Exception as e:
-            print("河海大学统一登录过程出错")
+            print("河海大学统一登录过程出错😐")
             exit(1)
 
     def get_info(self):
@@ -112,19 +112,18 @@ class DaKa:
 
 
 def main(username, password):
-    print("1. 启动打卡程序")
+    print("1. 启动打卡程序🚴")
     dk = DaKa(username, password)
-    print("2. 进行单点登录")
+    print("2. 正在登录🐌")
     dk.login()
-    print("3. 获取打卡信息")
+    print("3. 获取打卡信息📰")
     dk.get_info()
-    print("4. 准备为%s同学打卡" % dk.info['XM_1474'][-3:])
+    print("4. 开始为%s小同学打卡💗" % dk.info['XM_1474'][-3:])
     res = dk.post()
-    #print(res.content.decode())
     if '{"result":true}' in res.content.decode():
-        print('☑︎为%s同学打卡成功' % dk.info['XM_1474'][-3:])
+        print('为%s同学打卡成功🏆' % dk.info['XM_1474'][-3:])
     else:
-        print('提交错误')
+        print('提交发生错误💩')
 
 class AESCrypt:
     """
