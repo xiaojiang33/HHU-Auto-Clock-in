@@ -22,7 +22,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Clock In
         env:
-          USERNAME: ${{ secrets.USERNAME }}
+          ACCOUNT: ${{ secrets.ACCOUNT }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
-          python3 auto.py --username=$username --password=$password
+          python3 clock-in.py ${ACCOUNT} ${PASSWORD}
