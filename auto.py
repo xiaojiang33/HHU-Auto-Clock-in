@@ -107,7 +107,7 @@ class DaKa:
         self.info = save_data
     def post(self):
         res = self.sess.post(self.submit_url+'&userId='+self.username, data=self.info)
-        print(self.info)
+        #print(self.info)
         return res
 
 
@@ -120,7 +120,7 @@ def main(username, password):
     dk.get_info()
     print("4. 准备为%s同学打卡" % dk.info['XM_1474'][-3:])
     res = dk.post()
-    print(res.content.decode())
+    #print(res.content.decode())
     if '{"result":true}' in res.content.decode():
         print('☑︎为%s同学打卡成功' % dk.info['XM_1474'][-3:])
     else:
