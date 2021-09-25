@@ -65,7 +65,7 @@ class DaKa:
         res1 = self.sess.get(self.base_url, headers=self.headers, allow_redirects=True)
         res1 = self.sess.get(self.save_url, headers=self.headers, allow_redirects=True)
         content1 = res1.content.decode()
-
+        print(content1)
         username = re.search('"XGH_336526":"(.*?)"', content1).group(1)
         name = re.search('"XM_1474":"(.*?)"', content1).group(1)
         IDnumber = re.search('"SFZJH_859173":"(.*?)"', content1).group(1)
