@@ -183,4 +183,4 @@ if __name__ == "__main__":
     parser.add_argument('--username', type=str, default=None)
     parser.add_argument('--password', type=str, default=None)
     args = parser.parse_args()
-    main('1906010527','wxj751242803')
+    main(args.username, args.password)
