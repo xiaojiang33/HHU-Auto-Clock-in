@@ -7,7 +7,8 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 0 */12 * * *
+    # 07:05 everyday in UTC+8, 23:05 everyday in UTC+0
+  - cron: '05 23 * * *'
 
 jobs:
   ClockIn:
