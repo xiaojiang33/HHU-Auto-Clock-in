@@ -180,9 +180,10 @@ class AESCrypt:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--username', type=str, default=None)
-    parser.add_argument('--password', type=str, default=None)
-    args = parser.parse_args()
-
-    main(args.username, args.password)
+   print(sys.argv)
+    username = sys.argv[1]
+    password = sys.argv[2]
+    try:
+        main(username, password)
+    except Exception:
+        exit(1)
