@@ -25,4 +25,4 @@ jobs:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
-          python3 auto.py ${USERNAME} ${PASSWORD}
+          python3 auto.py --username=$username --password=$password
