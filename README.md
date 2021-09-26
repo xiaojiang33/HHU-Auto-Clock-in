@@ -6,7 +6,7 @@
 # 步骤
 1.fork到自己的仓库
 
-2.设置Secrets，添加两个repository Secret，名字分别为ACCOUNT,PASSWORD,value分别为学号和密码。
+2.设置Secrets，添加两个repository Secret，名字分别为ACCOUNT和PASSWORD , value分别为学号和密码。
 
 3.启动 通过点击star（已经star了取消重新点） 或者 等待每天早上6：00分自动运行（可能需要几分钟）
 
