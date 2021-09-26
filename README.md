@@ -13,6 +13,6 @@
 
 参考开源仓库：
 
-1. [浙大nCov健康打卡定时自动脚本](https://github.com/Tishacy/ZJU-nCov-Hitcarder)
-2. [北京化工大学COVID-19自动填报脚本](https://github.com/W0n9/BUCT_nCoV_Report)
-3. [浙江]（https://github.com/lgaheilongzi/ZJU-Clock-In）
+1. [浙江大学健康打卡](https://github.com/lgaheilongzi/ZJU-Clock-In)
+2. [中南大学nCov健康打卡定时自动脚本](https://github.com/lxy764139720/Auto_Attendance)
+3. [河海大学每日健康打卡](https://github.com/chloceg/hhu-daily-health-common)
