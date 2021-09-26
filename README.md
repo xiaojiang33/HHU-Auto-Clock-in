@@ -15,3 +15,4 @@
 
 1. [浙大nCov健康打卡定时自动脚本](https://github.com/Tishacy/ZJU-nCov-Hitcarder)
 2. [北京化工大学COVID-19自动填报脚本](https://github.com/W0n9/BUCT_nCoV_Report)
+3. [浙江]（https://github.com/lgaheilongzi/ZJU-Clock-In）
