@@ -118,10 +118,10 @@ def main(username, password):
     dk.login()
     print("3. 获取打卡信息📰")
     dk.get_info()
-    print("4. 开始为%s小同学打卡💗" % dk.info['XM_1474'][0])
+    print("4. 开始为小%s同学打卡💗" % dk.info['XM_1474'][0])
     res = dk.post()
     if '{"result":true}' in res.content.decode():
-        print('为%s小同学打卡成功🏆' % dk.info['XM_1474'][0])
+        print('为小%s同学打卡成功🏆' % dk.info['XM_1474'][0])
     else:
         print('提交发生错误💩')
 
