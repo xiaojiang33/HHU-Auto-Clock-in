@@ -20,7 +20,7 @@
 ![QQ截图20211004081612](https://user-images.githubusercontent.com/72798603/135778510-be7ad586-8aa5-4f34-9d11-b16949dad1c5.png)
 
 ## 4.查看活动日志 
-### 在Action里查看对应的workflows，黄色表示正在运行，绿色表示已完成，红色表示失败。点进去可以查看具体信息。
+### 在Action里查看对应的workflows，黄色表示正在运行，绿色表示已完成，红色表示失败。点进去可以查看具体信息。 1
 ![QQ截图20211004083013](https://user-images.githubusercontent.com/72798603/135778887-24b2d967-04c9-4fa1-bfd4-1542f467fa7f.png)
 ![QQ截图20211004082826](https://user-images.githubusercontent.com/72798603/135778890-4875f033-72d8-4791-906b-9662c5eb0af7.png)
 
