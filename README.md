@@ -10,7 +10,7 @@
 ![QQ截图20211004080244](https://user-images.githubusercontent.com/72798603/135777950-cddbc6b9-ac46-4369-a669-8842debc20db.png)
 
 ## 2.设置Secrets
-### 添加两个repository Secret，名字分别为ACCOUNT和PASSWORD , value分别为学号和密码。
+### 在Setting的Secret中添加两个repository Secret，名字分别为ACCOUNT和PASSWORD , value分别为学号和密码。
 ![QQ截图20211004080653](https://user-images.githubusercontent.com/72798603/135778308-58b2c07c-4b84-470b-8671-7c8da21cf0be.png)
 ![QQ截图20211004080819](https://user-images.githubusercontent.com/72798603/135778301-6f9d5ede-d2b6-476b-b308-775d9578ca1b.png)
 
