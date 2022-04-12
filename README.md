@@ -24,6 +24,10 @@
 ![QQ截图20211004083013](https://user-images.githubusercontent.com/72798603/135778887-24b2d967-04c9-4fa1-bfd4-1542f467fa7f.png)
 ![QQ截图20211004082826](https://user-images.githubusercontent.com/72798603/135778890-4875f033-72d8-4791-906b-9662c5eb0af7.png)
 
+## 5.第一次执行时如何创建工作流
+### 发现很多同学这一步卡住，如图所示两种情况，如果有工作流就Enable它，如果没有就New一个。
+![QQ截图20220412155758](https://user-images.githubusercontent.com/72798603/162910694-9c4d0964-2302-4c5e-a5a8-196692641775.png)
+
 
 # 参考开源仓库：
 
